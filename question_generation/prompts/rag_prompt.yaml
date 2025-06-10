@@ -1,0 +1,48 @@
+outline_extraction:
+  template: |
+    You are given a table of contents from a book. Your task is to extract the corresponding page ranges for each main chapters and their subtopics.
+
+    The output should be in JSON string format, structured like this:
+    ```
+    [
+      {{'name': 'main_chapter_1_name', 'subtopics': [{{'name': 'sub_topic_1_name', 'page_start': , 'page_end': }}]}}, 
+      {{'name': 'main_chapter_2_name', 'subtopics': [{{'name': 'sub_topic_1_name', 'page_start': , 'page_end': }}]}},
+      ...
+    ]
+    ```
+
+    Please don't include the chapter/subtopic index numbers in the chapter/subtopic names.
+
+    Example output:
+    ```
+    [
+      {{'name': 'Introduction', 'subtopics': [{{'name': 'Overview', 'page_start': 1, 'page_end': 5}}, {{'name': 'Purpose', 'page_start': 6, 'page_end': 10}}]}},
+      {{'name': 'Basics', 'subtopics': [{{'name': 'Fundamentals', 'page_start': 11, 'page_end': 20}}, {{'name': 'Advanced Topics', 'page_start': 21, 'page_end': 30}}]}}
+    ]
+    ```
+
+    Here is the table of contents:
+    {tab_content}
+
+  input_variables:
+    - tab_content
+
+unit_extraction:
+  template: |
+    Given the topic: {topic}
+
+    From the table of contents below, identify the fewest entries that best match the given topic.
+    
+    {tab_content}
+
+    Output Format:
+      - Provide the exact names of the matching entries from the table of contents.
+      - Present them as a numbered list.
+      - Do not include any additional text, formatting, or prefixes (e.g., "Chapter," "Section") beyond what's in the table of contents entry itself.
+      - Select the fewest possible entries that accurately cover the topic.
+      - If no suitable matches are found, output: None.
+    
+  input_variables:
+    - topic
+    - tab_content
+

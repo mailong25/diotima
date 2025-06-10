@@ -1,0 +1,76 @@
+question_prompt:
+  standard:
+    template: |
+      You are an AI assistant helping a school teacher create high-quality exam questions. The question type can be short or open-ended. Generate {num_question} different questions based on the following parameters:
+      - Subject Area: {subject}
+      - Topic: {topic}
+      - Subtopic: {subtopic}
+      - Question Difficulty Level (Bloom's Taxonomy): {diff_level}
+      - Student Age: {age} years old
+
+      Instructions:
+      1. Align each question with the specified Bloom’s Taxonomy level.
+      2. Use clear, age-appropriate language for the target age.
+      3. Keep questions relevant to the subject, topic, and subtopic.
+      4. Format questions for short or open-ended answers only.
+      5. Ensure questions are unique and non-repetitive.
+      
+      Output format:
+      1. question 1
+      2. question 2
+      ...
+    
+    input_variables:
+      - diff_level
+      - subject
+      - topic
+      - subtopic
+      - age
+      - num_question
+      - past_questions
+      - curriculum
+
+  curriculum_text:
+    template: |
+      You are an AI assistant helping a school teacher create high-quality exam questions. Below is the curriculum that has been used to teach the students:
+
+      {curriculum}
+      
+      Your task is to generate exam questions based strictly on this curriculum. Questions should be either short-answer or open-ended in format. To guide your question construction, here are examples of past questions categorized by Bloom's Taxonomy:
+
+      Past Exam Questions (Examples):
+      {past_questions}
+      
+      -----------------------------------------------------------------------------------------
+      
+      Please note that these questions are examples only. You should strictly follow the provided requirements regarding subject, topic, difficulty level, and student age.
+      
+      Now generate {num_question} different questions based on the following parameters:
+      - Subject Area: {subject}
+      - Topic: {topic}
+      - Question Difficulty Level (Bloom's Taxonomy): {diff_level}
+      - Student Age: {age} years old
+
+      Instructions:
+      1. Align each question with the specified Bloom’s Taxonomy level.
+      2. Use clear, age-appropriate language for the target age.
+      3. Keep questions relevant to the subject, topic.
+      4. Format questions for short or open-ended answers only.
+      5. Avoid broad or vague questions—make them focused and specific.
+      6. Ensure questions are unique and non-repetitive.
+      7. Ensure all questions are answerable using the provided curriculum.
+      
+      Output format:
+      1. question 1
+      2. question 2
+      ...
+    
+    input_variables:
+      - diff_level
+      - subject
+      - topic
+      - subtopic
+      - age
+      - num_question
+      - past_questions
+      - curriculum

@@ -1,0 +1,288 @@
+=== BEGIN OF CURRICULUM ===
+
+######################################################
+Strand 2: Structures and Processes of Life
+
+In Strand 2, students explore how the unique structures within living organisms enable essential life processes at cellular, organ, and systemic levels. This strand emphasizes the transfer of energy, matter, and information through processes such as photosynthesis, respiration, cell division, and protein synthesis. Students investigate how cells, organs, and systems interact to maintain homeostasis and facilitate exchanges with the environment.
+
+2.1. Enzymes
+Students learn about:
+- enzymes as selective catalysts controlling biochemical reactions; the importance of enzymes in metabolism
+- importance of 3D structure for enzyme specificity and activity
+- rate of enzyme activity (conversion of substrate into product per unit time) influenced by:
+  - substrate concentration
+  - enzyme concentration
+  - environmental pH
+  - temperature
+  - subject to denaturation
+- use of enzymes in a wide range of industries including:
+  - food and beverages
+  - biofuels
+  - medicine
+  - pharmaceuticals
+
+Students should be able to:
+ - explain how enzymes function to facilitate the catalysis of biochemical reactions
+ - illustrate enzyme activity using the Induced Fit model
+ - investigate factors affecting the rate of enzyme-catalysed reactions, use primary and secondary data to support conclusions
+ - research the use of enzymes in industries; recognise the central role of enzymes in industrial applications, including immobilised enzymes
+
+---
+
+2.2. Cellular processes – photosynthesis and respiration
+Students learn about:
+- cellular processes:
+  - photosynthesis and respiration as anabolic and catabolic reactions respectively
+  - the role of photosynthesis as a carbon sink, resulting in production of glucose in plants and leading to production of sucrose and complex carbohydrates
+  - the role of respiration in carbon release and energy transfer (as ATP) for cellular activities
+  - sources of reactants and products of both processes
+  - representation of the overall sequence of photosynthesis and respiration, including their cellular locations and balanced equations
+  - factors affecting rate of photosynthesis including:
+    - temperature
+    - light intensity
+    - CO₂ levels
+- conditions necessary for fermentation to occur:
+  - presence of sugars and microorganisms (yeast or bacteria)
+  - anaerobic environment
+  - suitable temperature
+- first and second stage process of respiration:
+  - first-stage process: glycolysis – the conversion of a six-carbon carbohydrate to pyruvate with the generation of ATP
+  - fermentation products, depending on organism and conditions, can be either ethanol or lactic acid
+  - second-stage process: pyruvate is broken down to produce AcetylCoA and one molecule of carbon dioxide
+  - AcetylCoA enters a series called citric acid cycle resulting in the production of CO₂ and H₂O
+- light dependent and light independent reactions of photosynthesis:
+  - light dependent reactions (non-cyclic pathway) involves the absorption of a photon of light, passed from one pigment molecule to others in the chloroplast until it reaches a reaction centre in a chlorophyll molecule
+  - light independent reactions – NADPH and ATP enter these reactions where protons and electrons are transferred from NADPH to CO₂ in the production of C₄H₁₂O₄
+- cellular structures facilitating photosynthesis and respiration:
+  - electron transport chains involving protein complexes and mobile electron carriers embedded in mitochondrial membrane (respiration) and thylakoid membrane (photosynthesis)
+
+Students should be able to:
+ - outline the processes of anaerobic respiration, aerobic respiration and photosynthesis
+ - investigate factors affecting the rate of photosynthesis, use primary and secondary data to support conclusions
+ - investigate the conditions necessary for fermentation, use primary and secondary data to support conclusions
+ - model the two-stage processes of photosynthesis and respiration; make particular reference to the role of transfer molecules
+ - recognise the significance of the internal structures of mitochondria and chloroplasts in facilitating the processes of photosynthesis and respiration
+
+---
+
+2.3. Information of life - cell division, protein synthesis
+Students learn about:
+- cell cycle involving growth, DNA synthesis and division summarised in the cell cycle involving:
+  - Interphase – cell growth and DNA replication
+  - Nuclear division – prophase, metaphase, anaphase and telophase
+  - Cytokinesis
+- the concepts of haploid and diploid
+- cell division as a transmission of genetic code to the next generation:
+  - mitosis – genetic information remains the same
+  - meiosis – variation of the genetic information
+- process of DNA replication, facilitated by enzymes and involves separating the double strand of DNA into two single strands
+- how genetic information is transcribed from DNA to mRNA, which is then transferred to ribosomes where it is translated into specific proteins
+- roles of:
+  - DNA
+  - mRNA
+  - tRNA
+  - rRNA
+  - polymerase
+  - ribosomes
+- point mutation occurring due to incorrect base pairing during replication
+- characteristics and growth of cancer cells including abnormal regulation of mitotic division and rate
+- emerging evidence in cancer research offering insights for prevention and/or treatment
+
+Students should be able to:
+ - outline the cell cycle
+ - compare the roles of mitosis and meiosis in transmitting genetic information in unicellular and multicellular organisms
+ - explain the role of DNA replication and mitosis in the cell cycle
+ - model how DNA is replicated and the flow of information through mRNA to protein
+ - model the processes of transcription and translation; relate the structure of tRNA to the codon nature of the genetic code
+ - model how point and chromosomal mutations occur, making reference to known examples of both
+ - outline how uncontrolled cell proliferation can lead to development of cancers
+ - examine the role of infectious agents, environmental factors and/or genetic susceptibility in the development of different cancers in an organism; evaluate factors that impact the development of cancers
+ 
+---
+
+2.4. Response
+Students learn about:
+- structures and systems for response including:
+  - hormonal system
+  - nervous system
+  - musculoskeletal system
+  - immune system
+  - various anatomical and chemical adaptations in plants
+- The musculoskeletal system:
+  - component parts of the axial skeleton:
+    - skull
+    - vertebrae
+    - ribs
+    - sternum
+  - component parts of the appendicular skeleton:
+    - pectoral girdle – clavicle, scapula
+    - pelvic girdle
+  - component parts of attached limbs:
+    - femur
+    - humerus
+    - patella
+    - radius
+    - tibia
+    - ulna
+    - fibula
+- The nervous system:
+  - central nervous system – brain and spinal cord
+  - peripheral nervous system – location of nerve fibres and cell bodies
+  - role, structure and mechanisms of the reflex action
+  - homeostasis as a model of stimulus-response
+  - neuron parts:
+    - cell body
+    - dendrites
+    - axon
+    - myelin sheath
+  - neurotransmission:
+    - transmission of nerve impulse via neurons
+    - role of neurotransmitters at a synapse
+  - neurotransmission effects mood and behaviour – functions of endorphins and dopamine
+- The endocrine system:
+  - endocrine system including glands, their locations and secretions:
+    - adrenal (adrenaline)
+    - pituitary (FSH, LH, oxytocin, TSH, ADH)
+    - thyroid (thyroxine)
+    - pancreas (insulin)
+    - testes (testosterone)
+    - ovaries (oestrogen, progesterone)
+  - uses of hormonal manipulations:
+    - sport
+    - health
+    - agriculture
+- Immunity:
+  - pathogens including:
+    - prions
+    - bacteria
+    - protists
+    - viruses
+    - fungi
+    - parasitic animals
+  - innate immune response
+  - adaptive immune response
+  - acquired immunity
+  - modes of action and replication
+  - different types of white blood cell:
+    - monocytes
+    - natural killer cells
+    - B lymphocytes
+    - T lymphocytes
+  - transmission and spread of infectious disease
+  - emergence and spread of diseases dependent on interrelated factors
+
+Students should be able to:
+ - outline the structures and systems for response in humans and plants
+ - relate the structures of the component parts of the axial and appendicular skeleton to their functions
+ - model the function of an antagonistic muscle pair; relate the functions of cartilage, ligament and tendons in synovial joints
+ - relate the structure of the parts of the central nervous system and the peripheral nervous system to their functions
+ - compare nervous and hormonal coordination
+ - relate the structures of a motor and sensory neuron to their functions
+ - explain the role of neurotransmitters at a synapse
+ - model impulse travel across a synaptic cleft, consider the impacts of disruptions to impulse travel
+ - Discuss the roles of the neurotransmitters dopamine and endorphins in humans, taking into account the influence of lifestyle choices on their levels in the human body
+ - identify the location of the major glands in the endocrine system, describe the functions of their associated hormones
+ - recognise the impact of hormonal manipulations on organisms
+ - distinguish between innate and acquired immunity; outline the strategies applied to prevent and treat microbial diseases
+ - model how viruses replicate within cells
+ - compare the roles of different types of white blood cell in immune response 
+ - explore factors that contribute to the emergence of infectious diseases in plants and animals
+ - discuss the importance of a knowledge of emerging diseases in society
+
+---
+
+2.5. Reproduction
+Students learn about:
+- Human reproduction:
+  - structure of the human male reproductive system
+  - structure of the female reproductive system
+  - gamete production (meiosis) and fertilisation
+  - four phases of the menstrual cycle:
+    - menstruation
+    - ovulation
+    - follicular phase
+    - luteal phase
+  - changes in levels of oestrogen, progesterone, LH and FSH in each phase
+  - anatomical and physiological processes of pregnancy
+  - role of hormones in controlling reproduction
+  - monitoring the health of the mother and developing foetus
+  - fertile periods for males and females
+  - methods of contraception and their use
+  - treatments for infertility
+- Plant reproduction:
+  - reproductive structures in flowering plants and their functions
+  - adaptations of these structures dependent on pollination method
+  - flower structures and functions
+  - role of flowers in pollination
+  - seed structures and functions
+  - role of seeds in producing growth regulators
+  - methods of fruit and seed dispersal
+
+Students should be able to:
+ - relate the general structure of the male and female human reproductive systems to their functions
+ - outline the phases of the menstrual cycle and the changes in hormone levels during each stage
+ - describe pregnancy from the development of fertilised zygote to birth
+ - model the role of hormones in the human male and female reproductive systems
+ - appreciate the impact of advancements in modern technology on prenatal and postnatal care
+ - discuss the use and biological implications of strategies to control fertility and treatments for infertility
+ - investigate and compare the structures of insect and wind pollinated plants and relate them to their functions, use primary and secondary data to support conclusions
+ - describe the role of seeds in plant reproduction
+
+---
+
+2.6. Transport and transfer (physiological processes)
+Students learn about:
+- transport and transfer of materials across membranes:
+  - diffusion
+  - osmosis
+  - active transport
+- factors affecting rates of osmosis:
+  - temperature
+  - concentration gradient
+  - surface area
+- The urinary system:
+  - transport and transfer of nutrients and wastes between the internal and external environment in humans
+  - urinary system (kidneys, ureters, urinary bladder, urethra)
+  - regulation of body fluids by the kidney
+  - nephron structure and blood supply
+  - role of ADH in osmoregulation
+- Digestion in the human body:
+  - ingestion, digestion, absorption and egestion
+  - associated organs of digestive system
+  - mechanical breakdown of food
+  - chemical breakdown of food by enzymes and bile salts
+  - absorption of nutrients and water into the blood
+  - absorption of water and elimination of faeces
+  - balanced diet importance
+- Exchange of gases:
+  - exchange of gases between the internal and external environment
+  - CO₂ as a controlling factor in the breathing mechanism
+- The human circulatory system:
+  - structures of the heart
+  - transport of materials within humans
+  - Composition of blood
+- Transport and transfer in plants:
+  - plant structures to facilitate transport and transfer
+  - structures and processes for transport in plants
+  - factors affecting rate of transpiration
+
+Students should be able to:
+ - distinguish between diffusion, osmosis and active transport; examine the role of osmosis in food preservation and plant health
+ - investigate factors affecting rates of osmosis across semi-permeable membranes, use primary data to support conclusions
+ - relate the macrostructure of the urinary system to its function in filtering and removing waste; outline the filtration of blood in the nephron
+ - model how the macrostructure of the human digestive system and associated organs and glands carry out the process of digesting fats, carbohydrates and proteins
+ - describe the absorption, transport and storage of the products of digestion
+ - research the biological implications of dietary choices
+ - relate the anatomy and physiology of the breathing system to its role in gaseous exchange in the lungs
+ - outline the role of carbon dioxide concentration as a controlling factor in plant stomata and in the human breathing system
+ - investigate the structures of the heart and relate them to their functions, use primary and secondary data to support conclusions
+ - model the interaction between the circulatory and other human body systems in facilitating transport of materials around the body
+ - outline heartbeat and its control by the pacemaker, pulse, blood pressure and the cardiac blood supply
+ - relate the composition of the blood to its functions; appreciate the value of knowledge on blood grouping for human health
+ - distinguish between arteries, veins and capillaries based on their macrostructures and role in the circulatory system of humans
+ - relate the structure of the root, stem and leaf and their associated tissues with their function
+ - explain the transport of water, minerals, carbon dioxide and photosynthetic products in the plant
+ - investigate factors affecting the rate of transpiration in plants, use primary and secondary data to support conclusions
+
+
+  === END OF CURRICULUM ===

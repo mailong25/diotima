@@ -26,7 +26,7 @@ def get_relevant_text(book, topic, subtopic=None):
 
     tab_content = '\n'.join([unit['name'] for unit in units])
     prompt = prompt_template.format(
-        topic=subtopic if subtopic else topic,
+        topic=topic + ': ' + subtopic if subtopic else topic,
         tab_content=tab_content
     )
 

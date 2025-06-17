@@ -42,11 +42,10 @@ Use the rag.py module to extract relevant content from book.json based on a topi
 from rag import get_relevant_text
 import json
 
-with open("resources/book.json") as f:
-    book = json.load(f)
+book = json.load(open("resources/book.json"))
 
-topic = "Introduction"
-subtopic = None
+topic = "Sensory"
+subtopic = "Taste"
 
 relevant_text, selected_units = get_relevant_text(book, topic, subtopic)
 print("Selected units:", selected_units)

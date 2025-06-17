@@ -35,7 +35,7 @@ unit_extraction:
     
     {tab_content}
 
-    Output Format:
+    Output Format: 
       - Provide the exact names of the matching entries from the table of contents.
       - Present them as a numbered list.
       - Do not include any additional text, formatting, or prefixes (e.g., "Chapter," "Section") beyond what's in the table of contents entry itself.
@@ -45,4 +45,40 @@ unit_extraction:
   input_variables:
     - topic
     - tab_content
+
+unit_knowledge_extraction:
+  template: |
+    You are given raw text extracted from a textbook. This text may include a mix of instructional prompts, example questions, tasks, or language not directly related to subject-specific knowledge.
+
+    Your task is to extract and return only the factual knowledge from the input. This includes but not limited to headings or section titles , definitions, theoretical explanations, factual descriptions, scientific laws or formulas, historical summaries (pure narrative facts), concepts and principles explained in full. Do not modify, paraphrase, or rewrite any part of the content. Only copy and return the original segments that are factual knowledge.
+
+    Omit any of the following:
+    Questions and Exercises:
+    - Multiple-choice, short answer, or open-ended questions
+    - Prompts like “Think about…”, “Answer the following…”, “Practice this…”
+    - Questions embedded in the explanation (e.g., “What happens when…”)
+    - All answers or solutions to questions
+    Instructions and Task-Based Language
+    - Activity directions (e.g., “Draw a diagram”, “Conduct an experiment”)
+    - Group work or discussion tasks (e.g., “Discuss in pairs”, “Work with a partner”)
+    - Homework or project guidelines
+    Learning Prompts and Pedagogical Tools
+    - Learning objectives (e.g., “By the end of this chapter, you will…”)
+    - Reflective prompts (e.g., “How do you feel about…?”)
+    - Self-assessment checklists
+    Metadata and Formatting Cues
+    - Page numbers
+    - Bullet points, numbering (unless required for clarity)
+    - Cross-references (e.g., “See page 23”)
+    Non-Content Language
+    - Jokes, analogies, or stories used to simplify content
+    - Conversational language between teacher and student characters
+
+    ---- 
+    Here is the input text:
+
+    {text}
+    
+  input_variables:
+    - text
 

@@ -6,6 +6,47 @@ import yaml
 from langchain.prompts import PromptTemplate
 from utils.api_clients import openai_chat
 from utils.pdf_utils import pdf_to_text
+from utils.text_processing import text_to_chunks
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
+from config import UNIT_KNOWLEDGE_EXTRACTION_MODEL
+
+def unit_knowledge_extraction(text):
+    try:
+        with open("prompts/rag_prompt.yaml", "r") as f:
+            templates = yaml.safe_load(f)
+
+        template_data = templates['unit_knowledge_extraction']
+        prompt_template = PromptTemplate(
+            input_variables=template_data["input_variables"],
+            template=template_data["template"]
+        )
+
+        CHUNK_MAX_WORDS = 2000
+
+        word_count = len(text.split())
+        if word_count <= CHUNK_MAX_WORDS:
+            prompt = prompt_template.format(text=text)
+            response = openai_chat(prompt, model=UNIT_KNOWLEDGE_EXTRACTION_MODEL, max_tokens=16384)
+            return response
+        else:
+            chunks = text_to_chunks(text, chunk_max_words=CHUNK_MAX_WORDS, splitter=".\n")
+            responses = []
+            
+            for i, chunk in enumerate(chunks):
+                prompt = prompt_template.format(text=chunk)
+                response = openai_chat(prompt, model=UNIT_KNOWLEDGE_EXTRACTION_MODEL, max_tokens=16384)
+                responses.append(response)
+            
+            # Concatenate all responses
+            return '.\n'.join(responses)
+    except:
+        print("Error during unit knowledge extraction. Returning original text.")
+        return text
+
+def process_subtopic(subtopic_data):
+    subtopic_data['text'] = unit_knowledge_extraction(subtopic_data['text'])
+    return subtopic_data
 
 def main(pdf_path, tab_start, tab_end, page_offset, output_path):
     # Extract table of contents text
@@ -23,7 +64,7 @@ def main(pdf_path, tab_start, tab_end, page_offset, output_path):
     )
     prompt = prompt_template.format(tab_content=tab_content)
 
-    # Call the LLM to get the outline
+    print("Calling the LLM to get the outline...")
     resp = openai_chat(prompt)
 
     # Parse the JSON response
@@ -46,8 +87,32 @@ def main(pdf_path, tab_start, tab_end, page_offset, output_path):
             text = pdf_to_text(pdf_path, subtopic['page_start'], subtopic['page_end'])
             subtopic['text'] = text
 
+            # Prepend topic name into subtopic
+            subtopic['name'] = subtopic['name'].replace(':', '-')
+            subtopic['name'] = topic['name'] + ': ' + subtopic['name']
+
         topic['page_start'] = topic['subtopics'][0]['page_start']
         topic['page_end'] = topic['subtopics'][-1]['page_end']
+
+    # Collect all subtopics for parallel processing
+    all_subtopics = []
+    for topic in outline:
+        all_subtopics.extend(topic['subtopics'])
+    
+    # Process all subtopics in parallel
+    print("Processing subtopics with unit knowledge extraction...")
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_subtopic = {
+            executor.submit(process_subtopic, subtopic): subtopic 
+            for subtopic in all_subtopics
+        }
+        
+        for future in tqdm(as_completed(future_to_subtopic), total=len(all_subtopics), desc="Extracting knowledge"):
+            try:
+                processed_subtopic = future.result()
+            except Exception as e:
+                subtopic = future_to_subtopic[future]
+                print(f"Error processing subtopic: {e}")
 
     # Save to output JSON
     with open(output_path, "w") as f:

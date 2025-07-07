@@ -31,7 +31,7 @@ unit_extraction:
   template: |
     Given the topic: {topic}
 
-    From the table of contents below, identify the fewest entries that best match the given topic.
+    From the table of contents below, identify the ONLY entries that direct match the given topic.
     
     {tab_content}
 

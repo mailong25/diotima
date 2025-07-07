@@ -74,11 +74,10 @@ def main(pdf_path, tab_start, tab_end, page_offset, output_path):
     except Exception as e:
         print("Error parsing JSON from LLM response:", e)
         return
-
-    # Adjust page numbers to map TOC to actual PDF page numbers
+    
     for topic in outline:
         topic['subtopics'][0]['page_start'] -= 1
-        topic['subtopics'][-1]['page_end'] -= 1
+        topic['name'] = topic['name'].replace(':', '-')
 
         for subtopic in topic['subtopics']:
             # Map TOC page to actual PDF page

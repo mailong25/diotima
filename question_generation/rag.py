@@ -30,9 +30,9 @@ def get_relevant_text(book, topic, subtopic=None):
         tab_content=tab_content
     )
 
-    resp = openai_chat(prompt)
+    resp = openai_chat(prompt, model="gpt-4o")
     selected_units = numbered_to_list(resp)
-
+    
     relevant_text = []
     for unit in units:
         if unit['name'] in selected_units:

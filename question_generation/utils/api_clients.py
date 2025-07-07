@@ -14,7 +14,7 @@ def mistralai_chat(prompt, model="mistral-large-latest", temperature=0, max_toke
     )
     return response.choices[0].message.content
 
-def openai_chat(prompt, model="gpt-4o-mini", temperature=0, max_tokens=10000):
+def openai_chat(prompt, model="gpt-4o", temperature=0, max_tokens=10000):
     client = openai.OpenAI(api_key=OPENAI_API_KEY)
     response = client.chat.completions.create(
         model=model,

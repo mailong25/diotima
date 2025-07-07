@@ -72,22 +72,22 @@ python merge_book.py resources/ap_book.json,resources/lab_book.json resources/me
 
 # Map humman annotation results
 ```
-python subtopic_mapping.py --book_path resources/merged_book.json --mapping_path resources/mapping.csv --output_path resources/mapped_curriculum.json
+python subtopic_mapping.py --book_path resources/merged_book.json --mapping_path resources/mapping.csv --output_path resources/structured_book.json
 ```
 
 ## 🔍 2️⃣ Extract subtopic text from the processed book
 🔧 Example Usage
 ```
-def find_subtopic_text(mapped_curriculum, subtopic_name):
+def find_subtopic_text(structured_book, subtopic_name):
     """
-    Search for the subtopic_name in the mapped_curriculum and return its text content.
+    Search for the subtopic_name in the structured_book and return its text content.
     """
-    for topic, subtopics in mapped_curriculum.items():
+    for topic, subtopics in structured_book.items():
         if subtopic_name in subtopics:
             return subtopics[subtopic_name]
-    print(f"Warning: Subtopic '{subtopic_name}' not found in mapped curriculum.")
+    print(f"Warning: Subtopic '{subtopic_name}' not found in structured_book.")
     return None
 
-mapped_curriculum = json.load(open("resources/mapped_curriculum.json"))
-print(find_subtopic_text(mapped_curriculum, "Scientists and scientific ideas"))
+structured_book = json.load(open("resources/structured_book.json"))
+print(find_subtopic_text(structured_book, "Scientists and scientific ideas"))
 ```

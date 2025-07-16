@@ -1,6 +1,6 @@
 
 
-#  Book Outline & RAG Extraction Tool
+#  Book Outline & Extraction Tool
 
 This repository provides tools for:
 

@@ -1,0 +1,488 @@
+{
+  "U1 Scientific Knowledge": {
+    "Scientists and scientific ideas": [
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Very high relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 19
+      },
+      {
+        "content": "As is the case in this example, the conclusion from inductive reasoning can often become the premise for deductive reasoning. The scientific method may seem too rigid and structured. It is important to keep in mind that, although scientists often follow this sequence, there is flexibility. Sometimes an experiment leads to conclusions that favor a change in approach; often, an experiment brings entirely new scientific questions to the puzzle. Many times, science does not operate in a linear fashion; instead, scientists continually draw inferences and make generalizations, finding patterns as their research proceeds. Scientific reasoning is more complex than the scientific method alone suggests. Notice, too, that the scientific method can be applied to solving problems that aren’t necessarily scientific in nature.",
+        "relevance_level": "Very high relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 23
+      },
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "Very high relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 3
+      },
+      {
+        "content": "The scientific method begins with an observation and follows with a hypothesis to explain the observation; then experiments are conducted to test the hypothesis, gather results, and draw conclusions from data. The AP® program has identified seven major categories of Science Practices, which can be described by short phrases: using representations and models to communicate information and solve problems; using mathematics appropriately; engaging in questioning; planning and implementing data collection strategies; analyzing and evaluating data; justifying scientific explanations; and connecting concepts.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 38
+      },
+      {
+        "content": "Science can be basic or applied. The main goal of basic science is to expand knowledge without any expectation of short-term practical application of that knowledge. The primary goal of applied research, however, is to solve practical problems. Two types of logical reasoning are used in science. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning is a form of logical thinking that predicts results by applying general principles. The common thread throughout scientific research is the use of the scientific method, a step-based process that consists of making observations, defining a problem, posing hypotheses, testing these hypotheses, and drawing one or more conclusions.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 103
+      },
+      {
+        "content": "Over time, however, scientists came to understand that life was constantly evolving on Earth. Georges Cuvier found that fossilized remains or organisms changed as he dug into deeper rock layers (strata), indicating that the organisms present in the area had changed over time. This observation led Jean-Baptiste de Lamarck to hypothesize that organisms adapted to their environment by changing over time. As organisms used different parts of their body, those parts improved, and these changes were passed down to their offspring. Ultimately, these theories were disproven by scientists, but their development contributed to the theory of evolution that was finally formulated by Charles Darwin.",
+        "relevance_level": "Very high relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 1861
+      },
+      {
+        "content": "Descriptive science and hypothesis-based science are in continuous dialogue. Biologists study the living world by posing questions about it and seeking science-based responses. This approach is common to other sciences as well and is often referred to as the scientific method. The scientific method was used even in ancient times, but it was first documented by England’s Sir Francis Bacon (1561–1626) (Figure 1.5), who set up inductive methods for scientific inquiry. The scientific method is not exclusively used by biologists but can be applied to almost all fields of study as a logical, rational problem-solving method. Figure 1.5 Sir Francis Bacon (1561–1626) is credited with being the first to define the scientific method. (credit: Paul van Somer)",
+        "relevance_level": "Very high relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 16
+      },
+      {
+        "content": "Whether scientific research is basic science or applied science, scientists must share their findings in order for other researchers to expand and build upon their discoveries. Collaboration with other scientists—when planning, conducting, and analyzing results—are all important for scientific research. For this reason, important aspects of a scientist’s work are communicating with peers and disseminating results to peers. Scientists can share results by presenting them at a scientific meeting or conference, but this approach can reach only the select few who are present. Instead, most scientists present their results in peer-reviewed manuscripts that are published in scientific journals. Peer-reviewed manuscripts are scientific papers that are reviewed by a scientist’s colleagues, or peers. These colleagues are qualified individuals, often experts in the same research area, who judge whether or not the scientist’s work is suitable for publication.",
+        "relevance_level": "High relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 30
+      },
+      {
+        "content": "Although using the scientific method is inherent to science, it is inadequate in determining what science is. This is because it is relatively easy to apply the scientific method to disciplines such as physics and chemistry, but when it comes to disciplines like archaeology, psychology, and geology, the scientific method becomes less applicable as it becomes more difficult to repeat experiments. These areas of study are still sciences, however. Consider archaeology—even though one cannot perform repeatable experiments, hypotheses may still be supported. For instance, an archaeologist can hypothesize that an ancient culture existed based on finding a piece of pottery. Further hypotheses could be made about various characteristics of this culture, and these hypotheses may be found to be correct or false through continued support or contradictions from other findings.",
+        "relevance_level": "Medium relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 8
+      },
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Medium relevance",
+        "source_query": "appreciate how scientists work and how scientific ideas are modified over time",
+        "chunk_index": 15
+      },
+      {
+        "content": "The testing uses proper controls. Scientists present their results in peer-reviewed scientific papers published in scientific journals. A scientific research paper consists of several well-defined sections: introduction, materials and methods, results, and, finally, a concluding discussion. Review papers summarize the research done in a particular field over a period of time.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 104
+      },
+      {
+        "content": "hypothesis-based science form of science that begins with a specific question and potential testable answers",
+        "relevance_level": "Medium relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 79
+      },
+      {
+        "content": "In hypothesis-based science, specific results are predicted from a general premise. This type of reasoning is called deductive reasoning: deduction proceeds from the general to the particular. But the reverse of the process is also possible: sometimes, scientists reach a general conclusion from a number of specific observations. This type of reasoning is called inductive reasoning, and it proceeds from the particular to the general. Inductive and deductive reasoning are often used in tandem to advance scientific knowledge (see this figure). Figure 1.6 The scientific method consists of a series of well-defined steps. If a hypothesis is not supported by experimental data, a new hypothesis can be proposed. Figure 1.7 Scientists use two types of reasoning, inductive and deductive reasoning, to advance scientific knowledge.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 22
+      },
+      {
+        "content": "One thing is common to all forms of science: an ultimate goal “to know.” Curiosity and inquiry are the driving forces for the development of science. Scientists seek to understand the world and the way it operates. To do this, they use two methods of logical thinking: inductive reasoning and deductive reasoning. Inductive reasoning is a form of logical thinking that uses related observations to arrive at a general conclusion. This type of reasoning is common in descriptive science.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How do scientists work?",
+        "chunk_index": 12
+      }
+    ],
+    "Conducting research, evaluation of sources and bias": [
+      {
+        "content": "Science can be basic or applied. The main goal of basic science is to expand knowledge without any expectation of short-term practical application of that knowledge. The primary goal of applied research, however, is to solve practical problems. Two types of logical reasoning are used in science. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning is a form of logical thinking that predicts results by applying general principles. The common thread throughout scientific research is the use of the scientific method, a step-based process that consists of making observations, defining a problem, posing hypotheses, testing these hypotheses, and drawing one or more conclusions.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 103
+      },
+      {
+        "content": "scientific method method of research with defined steps that include observation, formulation of a hypothesis, testing, and confirming or falsifying the hypothesis",
+        "relevance_level": "High relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 100
+      },
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "High relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 3
+      },
+      {
+        "content": "review article paper that summarizes and comments on findings that were published as primary literature",
+        "relevance_level": "Medium relevance",
+        "source_query": "conduct research relevant to a scientific issue, evaluate different sources of information including secondary data, understanding that a source may lack detail or show bias",
+        "chunk_index": 98
+      },
+      {
+        "content": "The scientific process typically starts with an observation (often a problem to be solved) that leads to a question. One Monday morning, a student arrives at class and quickly discovers that the classroom is too warm. That is an observation that also describes a problem: the classroom is too warm. Recall that a hypothesis is a suggested explanation that can be tested. To solve a problem, several hypotheses may be proposed. For example, one hypothesis might be, “The classroom is warm because no one turned on the air conditioning.” But there could be other responses to the question, and therefore other hypotheses may be proposed.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 17
+      },
+      {
+        "content": "The testing uses proper controls. Scientists present their results in peer-reviewed scientific papers published in scientific journals. A scientific research paper consists of several well-defined sections: introduction, materials and methods, results, and, finally, a concluding discussion. Review papers summarize the research done in a particular field over a period of time.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 104
+      },
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 19
+      },
+      {
+        "content": "Science (from the Latin scientia, meaning “knowledge”) can be defined as knowledge that covers general truths or the operation of general laws, especially when acquired and tested by the scientific method. It becomes clear from this definition that the application of the scientific method plays a major role in science. The scientific method is a method of research with defined steps that include experiments and careful observation. One of the most important aspects of this method is the testing of hypotheses by means of repeatable experiments. A hypothesis is a suggested explanation for an event, which can be tested.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to conduct research on a scientific issue?",
+        "chunk_index": 7
+      },
+      {
+        "content": "The process of peer review helps to ensure that the research described in a scientific paper or grant proposal is original, significant, logical, and thorough. Grant proposals, which are requests for research funding, are also subject to peer review. Scientists publish their work so other scientists can reproduce their experiments under similar or different conditions to expand on the findings. The experimental results must be consistent with the findings of other scientists.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to evaluate the reliability of different sources of scientific information?",
+        "chunk_index": 31
+      },
+      {
+        "content": "peer-reviewed manuscript scientific paper that is reviewed by a scientist’s colleagues who are experts in the field of study",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to evaluate the reliability of different sources of scientific information?",
+        "chunk_index": 91
+      },
+      {
+        "content": "Whether scientific research is basic science or applied science, scientists must share their findings in order for other researchers to expand and build upon their discoveries. Collaboration with other scientists—when planning, conducting, and analyzing results—are all important for scientific research. For this reason, important aspects of a scientist’s work are communicating with peers and disseminating results to peers. Scientists can share results by presenting them at a scientific meeting or conference, but this approach can reach only the select few who are present. Instead, most scientists present their results in peer-reviewed manuscripts that are published in scientific journals. Peer-reviewed manuscripts are scientific papers that are reviewed by a scientist’s colleagues, or peers. These colleagues are qualified individuals, often experts in the same research area, who judge whether or not the scientist’s work is suitable for publication.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to evaluate the reliability of different sources of scientific information?",
+        "chunk_index": 30
+      }
+    ]
+  },
+  "U2 Investigating in Science": {
+    "Questioning for scientific investigation": [
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Very high relevance",
+        "source_query": "recognise questions that are appropriate for scientific investigation",
+        "chunk_index": 19
+      },
+      {
+        "content": "The scientific process typically starts with an observation (often a problem to be solved) that leads to a question. One Monday morning, a student arrives at class and quickly discovers that the classroom is too warm. That is an observation that also describes a problem: the classroom is too warm. Recall that a hypothesis is a suggested explanation that can be tested. To solve a problem, several hypotheses may be proposed. For example, one hypothesis might be, “The classroom is warm because no one turned on the air conditioning.” But there could be other responses to the question, and therefore other hypotheses may be proposed.",
+        "relevance_level": "High relevance",
+        "source_query": "recognise questions that are appropriate for scientific investigation",
+        "chunk_index": 17
+      },
+      {
+        "content": "hypothesis-based science form of science that begins with a specific question and potential testable answers",
+        "relevance_level": "Medium relevance",
+        "source_query": "recognise questions that are appropriate for scientific investigation",
+        "chunk_index": 79
+      },
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "Medium relevance",
+        "source_query": "recognise questions that are appropriate for scientific investigation",
+        "chunk_index": 3
+      },
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to identify questions appropriate for scientific investigation?",
+        "chunk_index": 15
+      }
+    ],
+    "Scientific hypothesis": [
+      {
+        "content": "A second hypothesis might be, “The classroom is warm because there is a power failure, and so the air conditioning doesn’t work.” Once a hypothesis has been selected, the student can make a prediction. A prediction is similar to a hypothesis but it typically has the format “If . . . then . . . .” For example, the prediction for the first hypothesis might be, “If the student turns on the air conditioning, then the classroom will no longer be too warm.” A valid hypothesis must be testable. It should also be falsifiable, meaning that it can be disproven by experimental results.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How to pose a testable hypothesis?",
+        "chunk_index": 18
+      },
+      {
+        "content": "A variable is any part of the experiment that can vary or change during the experiment. The control group contains every feature of the experimental group except it is not given the manipulation that is hypothesized about. Therefore, if the results of the experimental group differ from the control group, the difference must be due to the hypothesized manipulation, rather than some outside factor. To test the first hypothesis, the student would find out if the air conditioning is on. If the air conditioning is turned on but does not work, there should be another reason, and this hypothesis should be rejected. To test the second hypothesis, the student could check if the lights in the classroom are functional. If so, there is no power failure and this hypothesis should be rejected.",
+        "relevance_level": "High relevance",
+        "source_query": "How to pose a testable hypothesis?",
+        "chunk_index": 20
+      },
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 19
+      },
+      {
+        "content": "Each hypothesis should be tested by carrying out appropriate experiments. Be aware that rejecting one hypothesis does not determine whether or not the other hypotheses can be accepted; it simply eliminates one hypothesis that is not valid (see this figure). Using the scientific method, the hypotheses that are inconsistent with experimental data are rejected. While this “warm classroom” example is based on observational results, other hypotheses and experiments might have clearer controls. For instance, a student might attend class on Monday and realize she had difficulty concentrating on the lecture. One observation to explain this occurrence might be, “When I eat breakfast before class, I am better able to pay attention.” The student could then design an experiment with a control to test this hypothesis.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 21
+      },
+      {
+        "content": "Science (from the Latin scientia, meaning “knowledge”) can be defined as knowledge that covers general truths or the operation of general laws, especially when acquired and tested by the scientific method. It becomes clear from this definition that the application of the scientific method plays a major role in science. The scientific method is a method of research with defined steps that include experiments and careful observation. One of the most important aspects of this method is the testing of hypotheses by means of repeatable experiments. A hypothesis is a suggested explanation for an event, which can be tested.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 7
+      },
+      {
+        "content": "In hypothesis-based science, specific results are predicted from a general premise. This type of reasoning is called deductive reasoning: deduction proceeds from the general to the particular. But the reverse of the process is also possible: sometimes, scientists reach a general conclusion from a number of specific observations. This type of reasoning is called inductive reasoning, and it proceeds from the particular to the general. Inductive and deductive reasoning are often used in tandem to advance scientific knowledge (see this figure). Figure 1.6 The scientific method consists of a series of well-defined steps. If a hypothesis is not supported by experimental data, a new hypothesis can be proposed. Figure 1.7 Scientists use two types of reasoning, inductive and deductive reasoning, to advance scientific knowledge.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 22
+      },
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 3
+      },
+      {
+        "content": "The scientific method begins with an observation and follows with a hypothesis to explain the observation; then experiments are conducted to test the hypothesis, gather results, and draw conclusions from data. The AP® program has identified seven major categories of Science Practices, which can be described by short phrases: using representations and models to communicate information and solve problems; using mathematics appropriately; engaging in questioning; planning and implementing data collection strategies; analyzing and evaluating data; justifying scientific explanations; and connecting concepts.",
+        "relevance_level": "Medium relevance",
+        "source_query": "pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses",
+        "chunk_index": 38
+      },
+      {
+        "content": "The scientific process typically starts with an observation (often a problem to be solved) that leads to a question. One Monday morning, a student arrives at class and quickly discovers that the classroom is too warm. That is an observation that also describes a problem: the classroom is too warm. Recall that a hypothesis is a suggested explanation that can be tested. To solve a problem, several hypotheses may be proposed. For example, one hypothesis might be, “The classroom is warm because no one turned on the air conditioning.” But there could be other responses to the question, and therefore other hypotheses may be proposed.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to pose a testable hypothesis?",
+        "chunk_index": 17
+      },
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to compare different strategies for investigating a hypothesis?",
+        "chunk_index": 15
+      }
+    ],
+    "Design, plan and conduct investigations": [
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How to conduct a scientific investigation step-by-step?",
+        "chunk_index": 3
+      },
+      {
+        "content": "scientific method method of research with defined steps that include observation, formulation of a hypothesis, testing, and confirming or falsifying the hypothesis",
+        "relevance_level": "High relevance",
+        "source_query": "How to conduct a scientific investigation step-by-step?",
+        "chunk_index": 100
+      },
+      {
+        "content": "The scientific method begins with an observation and follows with a hypothesis to explain the observation; then experiments are conducted to test the hypothesis, gather results, and draw conclusions from data. The AP® program has identified seven major categories of Science Practices, which can be described by short phrases: using representations and models to communicate information and solve problems; using mathematics appropriately; engaging in questioning; planning and implementing data collection strategies; analyzing and evaluating data; justifying scientific explanations; and connecting concepts.",
+        "relevance_level": "High relevance",
+        "source_query": "How to conduct a scientific investigation step-by-step?",
+        "chunk_index": 38
+      },
+      {
+        "content": "Science can be basic or applied. The main goal of basic science is to expand knowledge without any expectation of short-term practical application of that knowledge. The primary goal of applied research, however, is to solve practical problems. Two types of logical reasoning are used in science. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning is a form of logical thinking that predicts results by applying general principles. The common thread throughout scientific research is the use of the scientific method, a step-based process that consists of making observations, defining a problem, posing hypotheses, testing these hypotheses, and drawing one or more conclusions.",
+        "relevance_level": "High relevance",
+        "source_query": "How to conduct a scientific investigation step-by-step?",
+        "chunk_index": 103
+      },
+      {
+        "content": "The scientific process typically starts with an observation (often a problem to be solved) that leads to a question. One Monday morning, a student arrives at class and quickly discovers that the classroom is too warm. That is an observation that also describes a problem: the classroom is too warm. Recall that a hypothesis is a suggested explanation that can be tested. To solve a problem, several hypotheses may be proposed. For example, one hypothesis might be, “The classroom is warm because no one turned on the air conditioning.” But there could be other responses to the question, and therefore other hypotheses may be proposed.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to design a scientific investigation?",
+        "chunk_index": 17
+      },
+      {
+        "content": "Science (from the Latin scientia, meaning “knowledge”) can be defined as knowledge that covers general truths or the operation of general laws, especially when acquired and tested by the scientific method. It becomes clear from this definition that the application of the scientific method plays a major role in science. The scientific method is a method of research with defined steps that include experiments and careful observation. One of the most important aspects of this method is the testing of hypotheses by means of repeatable experiments. A hypothesis is a suggested explanation for an event, which can be tested.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to design a scientific investigation?",
+        "chunk_index": 7
+      },
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to design a scientific investigation?",
+        "chunk_index": 15
+      },
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to ensure reliability in a scientific investigation?",
+        "chunk_index": 19
+      },
+      {
+        "content": "The testing uses proper controls. Scientists present their results in peer-reviewed scientific papers published in scientific journals. A scientific research paper consists of several well-defined sections: introduction, materials and methods, results, and, finally, a concluding discussion. Review papers summarize the research done in a particular field over a period of time.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to ensure reliability in a scientific investigation?",
+        "chunk_index": 104
+      },
+      {
+        "content": "The process of peer review helps to ensure that the research described in a scientific paper or grant proposal is original, significant, logical, and thorough. Grant proposals, which are requests for research funding, are also subject to peer review. Scientists publish their work so other scientists can reproduce their experiments under similar or different conditions to expand on the findings. The experimental results must be consistent with the findings of other scientists.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to ensure reliability in a scientific investigation?",
+        "chunk_index": 31
+      },
+      {
+        "content": "Each hypothesis should be tested by carrying out appropriate experiments. Be aware that rejecting one hypothesis does not determine whether or not the other hypotheses can be accepted; it simply eliminates one hypothesis that is not valid (see this figure). Using the scientific method, the hypotheses that are inconsistent with experimental data are rejected. While this “warm classroom” example is based on observational results, other hypotheses and experiments might have clearer controls. For instance, a student might attend class on Monday and realize she had difficulty concentrating on the lecture. One observation to explain this occurrence might be, “When I eat breakfast before class, I am better able to pay attention.” The student could then design an experiment with a control to test this hypothesis.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to ensure reliability in a scientific investigation?",
+        "chunk_index": 21
+      },
+      {
+        "content": "Whether scientific research is basic science or applied science, scientists must share their findings in order for other researchers to expand and build upon their discoveries. Collaboration with other scientists—when planning, conducting, and analyzing results—are all important for scientific research. For this reason, important aspects of a scientist’s work are communicating with peers and disseminating results to peers. Scientists can share results by presenting them at a scientific meeting or conference, but this approach can reach only the select few who are present. Instead, most scientists present their results in peer-reviewed manuscripts that are published in scientific journals. Peer-reviewed manuscripts are scientific papers that are reviewed by a scientist’s colleagues, or peers. These colleagues are qualified individuals, often experts in the same research area, who judge whether or not the scientist’s work is suitable for publication.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to ensure reliability in a scientific investigation?",
+        "chunk_index": 30
+      }
+    ],
+    "Produce, select data. Critical analysis, observations and conclusions": [
+      {
+        "content": "A life scientist such as a biologist makes observations and records them. These data can be qualitative or quantitative, and the raw data can be supplemented with drawings, pictures, photos, or videos. From many observations, the scientist can infer conclusions (inductions) based on evidence. Inductive reasoning involves formulating generalizations inferred from careful observation and the analysis of a large amount of data. Brain studies provide an example. In this type of research, many live brains are observed while people are doing a specific activity, such as viewing images of food. The part of the brain that “lights up” during this activity is then predicted to be the part controlling the response to the selected stimulus, in this case, images of food. The “lighting up” of the various areas of the brain is caused by excess absorption of radioactive sugar derivatives by active areas of the brain. The resultant increase in radioactivity is observed by a scanner. Then, researchers can stimulate that part of the brain to see if similar responses result.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 13
+      },
+      {
+        "content": "The scientific method begins with an observation and follows with a hypothesis to explain the observation; then experiments are conducted to test the hypothesis, gather results, and draw conclusions from data. The AP® program has identified seven major categories of Science Practices, which can be described by short phrases: using representations and models to communicate information and solve problems; using mathematics appropriately; engaging in questioning; planning and implementing data collection strategies; analyzing and evaluating data; justifying scientific explanations; and connecting concepts.",
+        "relevance_level": "High relevance",
+        "source_query": "produce and select data (qualitatively/quantitatively), critically analyse data to identify patterns and relationships, identify anomalous observations, draw and justify conclusions",
+        "chunk_index": 38
+      },
+      {
+        "content": "20.2 Determining Evolutionary Relationships To build phylogenetic trees, scientists must collect accurate information that allows them to make evolutionary connections between organisms. Using morphologic and molecular data, scientists work to identify homologous characteristics and genes. Similarities between organisms can stem either from shared evolutionary history (homologies) or from separate evolutionary paths (analogies). Newer technologies can be used to help distinguish homologies from analogies. After homologous information is identified, scientists use cladistics to organize these events as a means to determine an evolutionary timeline. Scientists apply the concept of maximum parsimony, which states that the order of events probably occurred in the most obvious and simple way with the least amount of steps. For evolutionary events, this would be the path with the least number of major divergences that correlate with the evidence.",
+        "relevance_level": "High relevance",
+        "source_query": "How to select relevant data for analysis?",
+        "chunk_index": 2145
+      },
+      {
+        "content": "In hypothesis-based science, specific results are predicted from a general premise. This type of reasoning is called deductive reasoning: deduction proceeds from the general to the particular. But the reverse of the process is also possible: sometimes, scientists reach a general conclusion from a number of specific observations. This type of reasoning is called inductive reasoning, and it proceeds from the particular to the general. Inductive and deductive reasoning are often used in tandem to advance scientific knowledge (see this figure). Figure 1.6 The scientific method consists of a series of well-defined steps. If a hypothesis is not supported by experimental data, a new hypothesis can be proposed. Figure 1.7 Scientists use two types of reasoning, inductive and deductive reasoning, to advance scientific knowledge.",
+        "relevance_level": "High relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 22
+      },
+      {
+        "content": "discussion section of a scientific paper in which the author interprets experimental results, describes how variables may be related, and attempts to explain the phenomenon in question",
+        "relevance_level": "Medium relevance",
+        "source_query": "produce and select data (qualitatively/quantitatively), critically analyse data to identify patterns and relationships, identify anomalous observations, draw and justify conclusions",
+        "chunk_index": 73
+      },
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to produce qualitative data in scientific investigations?",
+        "chunk_index": 15
+      },
+      {
+        "content": "In addition, classification historically has focused on grouping organisms mainly by shared characteristics and does not necessarily illustrate how the various groups relate to each other from an evolutionary perspective. For example, despite the fact that a hippopotamus resembles a pig more than a whale, the hippopotamus may be the closest living relative of the whale. To build phylogenetic trees, scientists must collect accurate information that allows them to make evolutionary connections among organisms. Using morphological and molecular data, scientists identify both homologous and analogous characteristics and genes. (In a prior chapter we explored the differences between homologous and analogous traits and how they relate to convergent and divergent evolution.) Similarities among organisms stem either from shared ancestral history (homologies) or from separate evolutionary paths (analogies).",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to select relevant data for analysis?",
+        "chunk_index": 2098
+      },
+      {
+        "content": "Scientists look at patterns in data and try to explain differences or deviations from these patterns. The atmospheric carbon dioxide data reveal a historical pattern of carbon dioxide increasing and decreasing, cycling between a low of 180 ppm and a high of 300 ppm. Scientists have concluded that it took around 50,000 years for the atmospheric carbon dioxide level to increase from its low minimum concentration to its higher maximum concentration. However, starting recently, atmospheric carbon dioxide concentrations have increased beyond the historical maximum of 300 ppm. The current increases in atmospheric carbon dioxide have happened very quickly—in a matter of hundreds of years rather than thousands of years.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to critically analyse data to identify patterns and relationships?",
+        "chunk_index": 4072
+      },
+      {
+        "content": "inductive reasoning form of logical thinking that uses related observations to arrive at a general conclusion",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 80
+      },
+      {
+        "content": "Deductive reasoning or deduction is the type of logic used in hypothesis-based science. In deductive reason, the pattern of thinking moves in the opposite direction as compared to inductive reasoning. Deductive reasoning is a form of logical thinking that uses a general principle or law to forecast specific results. From those general principles, a scientist can extrapolate and predict the specific results that would be valid as long as the general principles are valid. Studies in climate change can illustrate this type of reasoning. For example, scientists may predict that if the climate becomes warmer in a particular region, then the distribution of plants and animals should change. These predictions have been made and tested, and many such changes have been found, such as the modification of arable areas for agriculture, with change based on temperature averages",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 14
+      },
+      {
+        "content": "conclusion section of a scientific paper that summarizes the importance of the experimental findings",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 69
+      },
+      {
+        "content": "As is the case in this example, the conclusion from inductive reasoning can often become the premise for deductive reasoning. The scientific method may seem too rigid and structured. It is important to keep in mind that, although scientists often follow this sequence, there is flexibility. Sometimes an experiment leads to conclusions that favor a change in approach; often, an experiment brings entirely new scientific questions to the puzzle. Many times, science does not operate in a linear fashion; instead, scientists continually draw inferences and make generalizations, finding patterns as their research proceeds. Scientific reasoning is more complex than the scientific method alone suggests. Notice, too, that the scientific method can be applied to solving problems that aren’t necessarily scientific in nature.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 23
+      },
+      {
+        "content": "One thing is common to all forms of science: an ultimate goal “to know.” Curiosity and inquiry are the driving forces for the development of science. Scientists seek to understand the world and the way it operates. To do this, they use two methods of logical thinking: inductive reasoning and deductive reasoning. Inductive reasoning is a form of logical thinking that uses related observations to arrive at a general conclusion. This type of reasoning is common in descriptive science.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to draw conclusions from data?",
+        "chunk_index": 12
+      },
+      {
+        "content": "Importantly, science does not claim to “prove” anything because scientific understandings are always subject to modification with further information. This step—openness to disproving ideas—is what distinguishes sciences from non-sciences. The presence of the supernatural, for instance, is neither testable nor falsifiable. To test a hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more of the hypotheses. Each experiment will have one or more variables and one or more controls.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to justify conclusions based on evidence?",
+        "chunk_index": 19
+      },
+      {
+        "content": "Each hypothesis should be tested by carrying out appropriate experiments. Be aware that rejecting one hypothesis does not determine whether or not the other hypotheses can be accepted; it simply eliminates one hypothesis that is not valid (see this figure). Using the scientific method, the hypotheses that are inconsistent with experimental data are rejected. While this “warm classroom” example is based on observational results, other hypotheses and experiments might have clearer controls. For instance, a student might attend class on Monday and realize she had difficulty concentrating on the lecture. One observation to explain this occurrence might be, “When I eat breakfast before class, I am better able to pay attention.” The student could then design an experiment with a control to test this hypothesis.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to justify conclusions based on evidence?",
+        "chunk_index": 21
+      }
+    ],
+    "Review and reflect": [
+      {
+        "content": "Both types of logical thinking are related to the two main pathways of scientific study: descriptive science and hypothesis-based science. Descriptive (or discovery) science, which is usually inductive, aims to observe, explore, and discover, while hypothesis-based science, which is usually deductive, begins with a specific question or problem and a potential answer or solution that can be tested. The boundary between these two forms of study is often blurred, and most scientific endeavors combine both approaches. The fuzzy boundary becomes apparent when thinking about how easily observation can lead to specific questions. For example, a gentleman in the 1940s observed that the burr seeds that stuck to his clothes and his dog’s fur had a tiny hook structure. On closer inspection, he discovered that the burrs’ gripping device was more reliable than a zipper. He eventually developed a company and produced the hook-and-loop fastener often used on lace-less sneakers and athletic braces.",
+        "relevance_level": "Very high relevance",
+        "source_query": "How to apply thinking from investigations to solve problems in unfamiliar contexts?",
+        "chunk_index": 15
+      },
+      {
+        "content": "Classic work on cognitive learning was done by Wolfgang Köhler with chimpanzees. He demonstrated that these animals were capable of abstract thought by showing that they could learn how to solve a puzzle. When a banana was hung in their cage too high for them to reach, and several boxes were placed randomly on the floor, some of the chimps were able to stack the boxes one on top of the other, climb on top of them, and get the banana. This implies that they could visualize the result of stacking the boxes even before they had performed the action. This type of learning is much more powerful and versatile than conditioning.",
+        "relevance_level": "Very high relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 4250
+      },
+      {
+        "content": "As is the case in this example, the conclusion from inductive reasoning can often become the premise for deductive reasoning. The scientific method may seem too rigid and structured. It is important to keep in mind that, although scientists often follow this sequence, there is flexibility. Sometimes an experiment leads to conclusions that favor a change in approach; often, an experiment brings entirely new scientific questions to the puzzle. Many times, science does not operate in a linear fashion; instead, scientists continually draw inferences and make generalizations, finding patterns as their research proceeds. Scientific reasoning is more complex than the scientific method alone suggests. Notice, too, that the scientific method can be applied to solving problems that aren’t necessarily scientific in nature.",
+        "relevance_level": "High relevance",
+        "source_query": "How to apply thinking from investigations to solve problems in unfamiliar contexts?",
+        "chunk_index": 23
+      },
+      {
+        "content": "The scientific process typically starts with an observation (often a problem to be solved) that leads to a question. One Monday morning, a student arrives at class and quickly discovers that the classroom is too warm. That is an observation that also describes a problem: the classroom is too warm. Recall that a hypothesis is a suggested explanation that can be tested. To solve a problem, several hypotheses may be proposed. For example, one hypothesis might be, “The classroom is warm because no one turned on the air conditioning.” But there could be other responses to the question, and therefore other hypotheses may be proposed.",
+        "relevance_level": "Medium relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 17
+      },
+      {
+        "content": "Science can be basic or applied. The main goal of basic science is to expand knowledge without any expectation of short-term practical application of that knowledge. The primary goal of applied research, however, is to solve practical problems. Two types of logical reasoning are used in science. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning is a form of logical thinking that predicts results by applying general principles. The common thread throughout scientific research is the use of the scientific method, a step-based process that consists of making observations, defining a problem, posing hypotheses, testing these hypotheses, and drawing one or more conclusions.",
+        "relevance_level": "Medium relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 103
+      },
+      {
+        "content": "The scientific method begins with an observation and follows with a hypothesis to explain the observation; then experiments are conducted to test the hypothesis, gather results, and draw conclusions from data. The AP® program has identified seven major categories of Science Practices, which can be described by short phrases: using representations and models to communicate information and solve problems; using mathematics appropriately; engaging in questioning; planning and implementing data collection strategies; analyzing and evaluating data; justifying scientific explanations; and connecting concepts.",
+        "relevance_level": "Medium relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 38
+      },
+      {
+        "content": "One thing is common to all forms of science: an ultimate goal “to know.” Curiosity and inquiry are the driving forces for the development of science. Scientists seek to understand the world and the way it operates. To do this, they use two methods of logical thinking: inductive reasoning and deductive reasoning. Inductive reasoning is a form of logical thinking that uses related observations to arrive at a general conclusion. This type of reasoning is common in descriptive science.",
+        "relevance_level": "Medium relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 12
+      },
+      {
+        "content": "applied science form of science that aims to solve real-world problems",
+        "relevance_level": "Medium relevance",
+        "source_query": "review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts",
+        "chunk_index": 65
+      },
+      {
+        "content": "Two types of logical reasoning are used in science: inductive reasoning and deductive reasoning. Inductive reasoning uses particular results to produce general scientific principles. Deductive reasoning uses logical thinking to predict results by applying scientific principles or practices. The scientific method is a step-by-step process that consists of: making observations, defining a problem, posing hypotheses, testing these hypotheses by designing and conducting investigations, and drawing conclusions from data and results. Scientists then communicate their results to the scientific community. Scientific theories are subject to revision as new information is collected.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to review and reflect on the thinking used in scientific investigations?",
+        "chunk_index": 3
+      },
+      {
+        "content": "In hypothesis-based science, specific results are predicted from a general premise. This type of reasoning is called deductive reasoning: deduction proceeds from the general to the particular. But the reverse of the process is also possible: sometimes, scientists reach a general conclusion from a number of specific observations. This type of reasoning is called inductive reasoning, and it proceeds from the particular to the general. Inductive and deductive reasoning are often used in tandem to advance scientific knowledge (see this figure). Figure 1.6 The scientific method consists of a series of well-defined steps. If a hypothesis is not supported by experimental data, a new hypothesis can be proposed. Figure 1.7 Scientists use two types of reasoning, inductive and deductive reasoning, to advance scientific knowledge.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to review and reflect on the thinking used in scientific investigations?",
+        "chunk_index": 22
+      },
+      {
+        "content": "In contrast, applied science or “technology,” aims to use science to solve real-world problems, making it possible, for example, to improve a crop yield, find a cure for a particular disease, or save animals threatened by a natural disaster (Figure 1.8). In applied science, the problem is usually defined for the researcher. Figure 1.8 After Hurricane Ike struck the Gulf Coast in 2008, the U.S. Fish and Wildlife Service rescued this brown pelican. Thanks to applied science, scientists knew how to rehabilitate the bird.",
+        "relevance_level": "Medium relevance",
+        "source_query": "How to apply thinking from investigations to solve problems in unfamiliar contexts?",
+        "chunk_index": 25
+      }
+    ]
+  }
+}

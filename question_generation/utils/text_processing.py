@@ -30,3 +30,12 @@ def text_to_chunks(text, chunk_max_words=2000, splitter=".\n"):
         chunks.append(splitter.join(current_chunk))
     
     return chunks
+
+def get_last_index(text, sub_string):
+    sub_pattern = r"\s+".join(sub_string.lower().split())
+    matches = list(re.finditer(sub_pattern, text, flags=re.IGNORECASE))
+    if matches:
+        last_index = matches[-1].start()
+        return last_index
+    else:
+        return -1

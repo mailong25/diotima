@@ -1,0 +1,276 @@
+toc_extraction:
+  template: |
+    You are given a table of contents from a book. Your task is to extract the corresponding page ranges for each main chapters and their subtopics.
+
+    The output should be in JSON string format, structured like this:
+    ```
+    [
+      {{'name': 'main_chapter_1_name', 'subtopics': [{{'name': 'sub_topic_1_name', 'page_start': , 'page_end': }}]}}, 
+      {{'name': 'main_chapter_2_name', 'subtopics': [{{'name': 'sub_topic_1_name', 'page_start': , 'page_end': }}]}},
+      ...
+    ]
+    ```
+
+    Please don't include the chapter/subtopic index numbers in the chapter/subtopic names.
+
+    Example output:
+    ```
+    [
+      {{'name': 'Introduction', 'subtopics': [{{'name': 'Overview', 'page_start': 1, 'page_end': 5}}, {{'name': 'Purpose', 'page_start': 6, 'page_end': 10}}]}},
+      {{'name': 'Basics', 'subtopics': [{{'name': 'Fundamentals', 'page_start': 11, 'page_end': 20}}, {{'name': 'Advanced Topics', 'page_start': 21, 'page_end': 30}}]}}
+    ]
+    ```
+
+    Here is the table of contents:
+    {toc_content}
+
+  input_variables:
+    - toc_content
+
+unit_knowledge_extraction:
+  template: |
+    You are given raw text extracted from a textbook. This text may contain a mix of instructional prompts, example questions, tasks, or non-subject-specific language.
+
+    Your task is to extract and return all factual subject-specific knowledge from the input text, verbatim.
+    - Do not omit any factual information, even if it seems minor, repetitive, or implicit.
+    - Include everything that conveys factual knowledge related to the subject matter.
+    - If no factual knowledge is present, return exactly: "None".
+    - Return the extracted factual knowledge exactly as it appears. You can move the words or sentences around but do not invent or add any new information.
+    - Organize the extracted factual knowledge into well-structured paragraphs
+        - Merge adjacent sentences that are closely related and form a coherent paragraph.
+        - Separate paragraphs that contain distinct ideas or topics into smaller, focused paragraphs.
+
+    Omit only the following:
+    1. Omit Questions and exercises:
+        - Multiple-choice, short-answer, or open-ended questions
+        - Prompts such as “Think about…”, “Answer the following…”, “Practice this…”
+        - Questions embedded within explanations (e.g., “What happens when…”)
+
+    2. Omit Instructions, orders, and task-based language:
+        - Activity directions (e.g., “Draw a diagram”, “Conduct an experiment”)
+        - Group or pair work instructions (e.g., “Discuss in pairs”, “Work with a partner”)
+        - Homework or project guidelines
+
+    3. Omit Learning prompts and framing:
+      - Learning objectives (e.g., “By the end of this chapter, you will…”)
+      - Reflective prompts (e.g., “How do you feel about…?”)
+      - Introductory or framing language (e.g., “In this section, you will…”)
+
+    4. Omit Metadata and formatting cues:
+      - Page numbers
+      - Bullet points or numbering (unless needed for clarity)
+      - Cross-references (e.g., “See page 23”)
+      - Footnotes/headers
+      - Any other metadata or formatting unrelated to factual content
+
+    --------------------------------
+
+    Here is the raw text:
+
+    [BEGIN OF RAW TEXT]
+
+    {text}
+
+    [END OF RAW TEXT]
+    
+  input_variables:
+    - text
+
+knowledge_extraction_and_paragraphing:
+  template: |
+    You are given raw text extracted from a textbook. This text may contain a mix of instructional prompts, example questions, tasks, or non-subject-specific language.
+
+    Your task has two parts:
+
+    1. **Extract factual subject-specific knowledge** from the input text, verbatim.
+        - Do not omit any factual information, even if it seems minor, repetitive, or implicit.
+        - Include everything that conveys factual knowledge related to the subject matter.
+        - If no factual knowledge is present, return exactly: "None".
+        - Return the extracted factual knowledge exactly as it appears. You can move the words or sentences around but do not invent or add any new information.
+
+        Omit only the following:
+        a. Questions and exercises:
+            - Multiple-choice, short-answer, or open-ended questions
+            - Prompts such as “Think about…”, “Answer the following…”, “Practice this…”
+            - Questions embedded within explanations (e.g., “What happens when…”)
+
+        b. Instructions, orders, and task-based language:
+            - Activity directions (e.g., “Draw a diagram”, “Conduct an experiment”)
+            - Group or pair work instructions (e.g., “Discuss in pairs”, “Work with a partner”)
+            - Homework or project guidelines
+
+        c. Learning prompts and framing:
+            - Learning objectives (e.g., “By the end of this chapter, you will…”)
+            - Reflective prompts (e.g., “How do you feel about…?”)
+            - Introductory or framing language (e.g., “In this section, you will…”)
+
+        d. Metadata and formatting cues:
+            - Page numbers
+            - Bullet points or numbering (unless needed for clarity)
+            - Cross-references (e.g., “See page 23”)
+            - Footnotes/headers
+            - Any other metadata or formatting unrelated to factual content
+
+    2. **Organize the extracted factual knowledge into well-structured paragraphs**:
+        - Merge adjacent sentences that are closely related and form a coherent paragraph.
+        - If any paragraph exceeds seven sentences, split it into smaller paragraphs of no more than seven sentences each, ensuring logical breaks.
+        - Separate paragraphs that contain distinct ideas or topics into smaller, focused paragraphs.
+        - Do not modify, paraphrase, or rewrite any content. Keep the original wording and sentence order exactly as provided.
+        - Remove any redundant or unnecessary newlines between sentences or paragraphs.
+        - Combine any headings or sub-headings directly with the paragraph(s) that follow them.
+        - Output the result as plain text with paragraphs separated by a single blank line.
+        - Do not include any explanations, comments, or formatting beyond paragraph breaks.
+
+    --------------------------------
+
+    Here is the raw text:
+
+    [BEGIN OF RAW TEXT]
+
+    {text}
+
+    [END OF RAW TEXT]
+    
+  input_variables:
+    - text
+
+relevant_chunk:
+  template: |
+    Evaluate whether the paragraph below provides relevant information in response to the query.
+
+    Paragraph:
+    {chunk}
+
+    Query: '{query}'
+
+    Please respond using the following format:
+
+    Reasoning: [Explanation of how and why the paragraph is or isn't relevant to the query]
+    Conclusion: [One of: Not relevant | Low relevance | Medium relevance | High relevance | Very high relevance]
+    
+  input_variables:
+    - chunk
+    - query
+
+query_expansion:
+  template: |
+    Task: Decompose the following learning outcome into smaller, focused sub-queries suitable for Retrieval-Augmented Generation (RAG). Each sub-query should represent a distinct concept or aspect that can be independently retrieved or explored.
+
+    Instructions:
+    - Break down complex or compound learning outcomes into clear, standalone sub-queries.
+    - Keep the language natural, as if asking a search engine.
+    - If the learning outcome is already atomic or focused, return it as a single sub-query.
+    - Output only a numbered list—no extra text.
+    - If the outcome is already atomic, return it as a single sub-query.
+    - Keep the list short while covering the key concepts.
+    
+    Examples:
+
+    Learning outcome: appreciate how scientists work and how scientific ideas are modified over time
+    Sub-queries:
+    1. How do scientists work?
+    2. How are scientific ideas modified over time?
+
+    Learning outcome: Recognise questions that are appropriate for scientific investigation
+    Sub-queries:
+    1. How to identify questions appropriate for scientific investigation?
+
+    Learning outcome: Discuss the difficulty of defining viruses, their economic and medical importance
+    Sub-queries:
+    1. Why it is difficult to define viruses?
+    2. What is the economic importance of viruses?
+    3. What is the medical importance of viruses?
+
+    Learning outcome: Design, plan and conduct investigations; explain how reliability, accuracy, and precision have been considered.
+    Sub-queries:
+    1. How to design a scientific investigation?
+    2. How to plan a scientific investigation?
+    3. How to conduct a scientific investigation step-by-step?
+    4. How to ensure reliability in a scientific investigation?
+    5. How to ensure accuracy in a scientific investigation?
+    6. How to ensure precision in a scientific investigation?
+
+    Learning outcome: {query}
+    Sub-queries:
+    1. 
+    
+  input_variables:
+    - query
+
+subtopic_text_extraction:
+  template: |
+    You are given raw text from a textbook:
+
+    --- [TEXT] ---
+
+    {chunk}
+
+    --- [TEXT] ---
+
+    Your task is to extract only the factual subject-specific knowledge that directly supports the following learning outcome:
+
+    Learning Outcome: {subtopic}
+    
+    Instructions:
+     - Extract only factual knowledge that helps a student achieve the above learning outcome.
+     - Keep the extracted knowledge factual, concise, and directly tied to the learning outcome.
+     - Return the extracted factual knowledge exactly as it appears. You can move the words or sentences around but do not invent or add any new information.
+     - Do not repeat similar information that has already been covered.
+     - Omit Questions and exercises;
+     - Omit Instructions, orders, and task-based language
+     - Omit Learning prompts and framing
+     - Omit Metadata and formatting cues
+    
+    Before the extracted content, provide an explanation of your reasoning.
+    If no relevant information is found in the text, return "Extracted text: NONE"
+    
+    Output Format:
+     - Reasoning: <your reasoning>  
+     - Extracted text: <your extraction or "NONE">
+
+  input_variables:
+    - chunk
+    - subtopic
+
+subtopic_summarization:
+  template: |
+    - Summarize the content of the section {main_section} in one paragraph.
+    - Ignore (if applicable) content from the preceding section '{leading_section}'
+    - Ignore (if applicable) content from the trailing section '{trailing_section}'
+    - Focus only on the information contained within {main_section}.
+    - Provide the summary without any additional formatting or explanations.
+
+    --------------------------
+    Here is the raw text:
+
+    {text}
+
+    --------------------------
+
+  input_variables:
+    - text
+    - main_section
+    - leading_section
+    - trailing_section
+
+subtopic_mapping:
+  template: |
+    Task: From the sections listed, identify only those that provide information directly addressing the learning outcome.
+    Instructions:
+      - Select main sections that provide direct and substantial information about the learning outcome.
+      - Avoid choosing multiple sections that cover the same core content.
+      - Output only the section titles in numbered list format.
+      - Return "None" if no sections are relevant.
+    
+    ----------------------
+    Here is the learning outcome: {subtopic}
+
+    Here are the sections and their content:
+
+    {content}
+
+    ----------------------
+
+  input_variables:
+    - subtopic
+    - content

@@ -1,7 +1,6 @@
 import openai
 from mistralai import Mistral
-
-# Set your API keys via environment variables or in config.py
+import time
 from config import OPENAI_API_KEY, MISTRAL_API_KEY
 
 def mistralai_chat(prompt, model="mistral-large-latest", temperature=0, max_tokens=10000):
@@ -16,10 +15,17 @@ def mistralai_chat(prompt, model="mistral-large-latest", temperature=0, max_toke
 
 def openai_chat(prompt, model="gpt-4o", temperature=0, max_tokens=10000):
     client = openai.OpenAI(api_key=OPENAI_API_KEY)
-    response = client.chat.completions.create(
-        model=model,
-        temperature=temperature,
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    if "gpt-5" in model:
+        response = client.chat.completions.create(
+            model=model,
+            max_completion_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}]
+        )
+    else:
+        response = client.chat.completions.create(
+            model=model,
+            temperature=temperature,
+            max_completion_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}]
+        )
     return response.choices[0].message.content

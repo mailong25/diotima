@@ -1,0 +1,23 @@
+rubric_classification:
+  template: |
+    You are grading a student's response using the rubric provided below.
+    
+    Question:
+    {question}
+    
+    Rubric:
+    {rubric}
+    
+    Student Answer:
+    {student_answer}
+    
+    Task:
+    Evaluate the student's response based on the rubric. Assign it to one of the rubric levels, providing a brief justification for your decision. Return your answer only in the following format:
+    
+    Reasoning: <your_reasoning>
+    Rubric level: <assigned_level>
+    
+  input_variables:
+    - question
+    - rubric
+    - student_answer

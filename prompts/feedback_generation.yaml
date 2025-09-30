@@ -1,0 +1,51 @@
+# Required
+#  - student_answer — the thing we’re evaluating.
+#  - question — frames intent and expected scope; prevents over/under-grading.
+#  - rubric — anchors criteria, weights, and definitions of proficiency to avoid subjective grading.
+#  - student_age & student_reading_level — essential to tailor tone, length, and vocabulary.
+#  - reference_answer — gives a canonical reference; speeds accurate, consistent evaluation.
+
+# Not necessary
+#  - curriculum_guidance — ensures alignment to course goals and accepted methods; helpful when rubric is terse.
+#  - relevant_textbook_chunk — supports evidence-based feedback and detects misconceptions even when the student’s answer is novel. When a student makes a factual error, the AI can use this text to not only correct the student but also to cite the specific source of the correct information.
+
+feedback_generation:
+  template: |
+    You are an expert pedagogical AI assistant. Your task is to provide personalized feedback on a student's answer.
+
+    Instructions:
+    - Base your feedback strictly on the rubric and assessment details (no extra knowledge or filler). However, do not mention the rubric explicitly in your feedback.
+    - Match the student's reading level.
+    - Take into account the teacher-assigned rubric category for the student answer.
+    - Highlight strengths as well as areas for improvement (if applicable), using clear and concise language.  
+    - Write one cohesive paragraph (no lists, headings, or bullet points).
+    - Maintain a professional and direct tone.
+    - Do not introduce outside knowledge that is not required by the rubric and the reference answer.
+    - Avoid repeating the same ideas or suggestions in different words.
+
+    --- STUDENT PROFILE ---
+    Reading Level: {student_reading_level}
+
+    --- ASSESSMENT DETAILS ---
+    Question: {question}
+    
+    Evaluation Rubric:
+    {rubric}
+
+    Reference Answer: {reference_answer}
+
+    --- STUDENT'S SUBMISSION ---
+    Student Answer:
+    {student_answer}
+
+    Teacher-Assigned Rubric Category: {rubric_category}
+
+    --------------------------------------------------
+
+  input_variables:
+    - student_answer
+    - question
+    - rubric
+    - student_reading_level
+    - reference_answer
+    - rubric_category

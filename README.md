@@ -2,6 +2,8 @@
 
 pip install -r requirements.txt
 
+Set your LLMs API key in config.py
+
 ## Example Use
 
 ```

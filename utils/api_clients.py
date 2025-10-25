@@ -23,7 +23,7 @@ def mistralai_chat(
         max_tokens=max_tokens,
         messages=[{"role": "user", "content": prompt}],
     )
-    return response.choices[0].message.content
+    return response.choices[0].message.content.replace("**", "")
 
 def openai_chat(
     prompt,
@@ -135,3 +135,40 @@ def llm_generate_response(
         )
     else:
         raise ValueError(f"Unsupported provider '{provider}'. Must be one of: openai, mistral, google.")
+
+def get_embedding(
+    text: str,
+    model: str = "text-embedding-3-small",
+    api_key: str | None = None,
+) -> list[float]:
+    """
+    Generate a vector embedding for a given text string using OpenAI's embedding models.
+
+    Args:
+        text (str): Input text to embed.
+        model (str): Embedding model to use. Options:
+            - "text-embedding-3-small" (1536 dimensions)
+            - "text-embedding-3-large" (3072 dimensions)
+        api_key (str, optional): Override API key.
+
+    Returns:
+        list[float]: Embedding vector.
+    """
+    if not text or not isinstance(text, str):
+        raise ValueError("Text input must be a non-empty string.")
+
+    api_key = api_key or OPENAI_API_KEY or os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("OpenAI API key not provided and not found in environment variables.")
+    
+    client = openai.OpenAI(api_key=api_key)
+
+    # Ensure single-line text (avoid line breaks affecting embeddings)
+    clean_text = text.replace("\n", " ").strip()
+
+    response = client.embeddings.create(
+        model=model,
+        input=[clean_text],
+    )
+
+    return response.data[0].embedding

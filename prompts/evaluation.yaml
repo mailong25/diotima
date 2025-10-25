@@ -1,0 +1,62 @@
+binary_classification:
+  template: |
+    You are evaluating a candidate response to the following task.
+
+    --- Task Prompt ---
+    {task_prompt}
+
+    --- Candidate Response ---
+    {task_answer}
+
+    First, provide a reasoning about whether the candidate response adequately addresses the task.
+
+    Then, in the final decision, reply:
+    - 'Accept' if the candidate correctly and sufficiently answers the task
+    - 'Reject' if the candidate fails or is insufficient
+
+    Return your answer only in the following format:
+    Reasoning: <your_reasoning>
+    Final decision: <decision>
+
+  input_variables:
+    - task_prompt
+    - task_answer
+
+rubric_evaluation:
+  template: |
+    You are an evaluator comparing two rubric descriptions.
+
+    Your task:
+    - Assess how closely Rubric Description #2 aligns in meaning and scope with Rubric Description #1, for the given question and rubric level.
+    - Consider the intent, criteria, and phrasing of each rubric description.
+
+    Context:
+    Question: {question}
+    Rubric level: {rubric_level}
+
+    Rubric Description #1:
+    {rubric1}
+
+    Rubric Description #2:
+    {rubric2}
+
+    Evaluation scale (1–5):
+    1 = Not aligned — completely different meaning or scope  
+    2 = Weakly aligned — partial overlap, major differences  
+    3 = Moderately aligned — similar core idea, but notable differences  
+    4 = Strongly aligned — mostly equivalent with minor phrasing or focus differences  
+    5 = Perfectly aligned — identical meaning and scope
+
+    Instructions:
+    - Explain your reasoning in 2–3 sentences, highlighting key similarities or differences.
+    - Then provide your numeric score on the final line.
+
+    Output format (use exactly this format):
+    Reasoning: <your_reasoning>
+    Final score: <score>
+
+  input_variables:
+    - rubric1
+    - rubric2
+    - question
+    - rubric_level

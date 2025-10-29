@@ -4,7 +4,7 @@ pip install -r requirements.txt
 
 Set your LLMs API key in config.py
 
-## Example Use
+## Example Use.
 
 ```
 from rubric_classification import classify_student_answer

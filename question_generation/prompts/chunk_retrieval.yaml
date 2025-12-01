@@ -113,7 +113,7 @@ knowledge_extraction_and_paragraphing:
 
     2. **Organize the extracted factual knowledge into well-structured paragraphs**:
         - Merge adjacent sentences that are closely related and form a coherent paragraph.
-        - If any paragraph exceeds seven sentences, split it into smaller paragraphs of no more than seven sentences each, ensuring logical breaks.
+        - If any paragraph exceeds five sentences, split it into smaller paragraphs of no more than five sentences each, ensuring logical breaks.
         - Separate paragraphs that contain distinct ideas or topics into smaller, focused paragraphs.
         - Do not modify, paraphrase, or rewrite any content. Keep the original wording and sentence order exactly as provided.
         - Remove any redundant or unnecessary newlines between sentences or paragraphs.
@@ -274,3 +274,60 @@ subtopic_mapping:
   input_variables:
     - subtopic
     - content
+
+relevant_text_extraction:
+  template: |
+    You are an expert in Retrieval-Augmented Generation (RAG) evaluation.
+    Your task is to determine whether the retrieved paragraphs contain sufficient information to answer the given question.
+    If they do, extract and combine only the directly relevant sentences or phrases from those paragraphs.
+
+    Guidelines:
+      1. You may copy, cut, and paste exact words, sentences, or short phrases verbatim from the retrieved paragraphs.
+          - You may combine text from multiple paragraphs if necessary.
+          - You must not paraphrase, summarize, or invent any new information.
+      2. Ignore all irrelevant or redundant text.
+      3. Be concise and logical in your reasoning.
+      4. Always return your answer in valid JSON format (no extra commentary).
+
+    Input Data:
+
+    Retrieved Paragraphs:
+
+    {paragraphs}
+
+    Question: {question}
+
+    -----
+
+    Expected Output (strict JSON format):
+
+    {{
+    "Reasoning": "<step-by-step reasoning for determining sufficiency of answering the question>",
+    "Answerable": "<Yes or No>",
+    "Relevant_Text": "<exact sentences or phrases copied from retrieved paragraphs>"
+    }}
+
+  input_variables:
+    - question
+    - paragraphs
+
+knowledge_generation:
+  template: |
+    You are an expert in knowledge generation.
+    Your task is to provide the most relevant factual knowledge needed to accurately answer the given question.
+
+    Guidelines:
+      1. Use only accurate, factual, and verifiable information.
+      2. Do not include speculation, opinions, or unrelated details.
+      3. Focus only on the key facts, definitions, and concepts that directly contribute to answering the question.
+      4. Be concise and factual.
+
+    Output only the relevant knowledge as plain text — do not include reasoning, formatting, or explanations.
+
+    Input:
+    Question: {question}
+
+    Output: <Relevant knowledge needed to answer the question>
+
+  input_variables:
+    - question
